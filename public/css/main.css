@@ -1,5 +1,6 @@
 body{
 	background-color: ghostwhite;
+	margin: 0%;
 }
 head{
 	background-color: ghostwhite;
@@ -25,6 +26,11 @@ footer{
 h1{
 	margin-top: 2%;
 	margin-left: 28%;
+}
+
+#pageNotFound{
+	margin-left: 35%;
+	margin-top: 5%;
 }
 
 #listaCostado{
