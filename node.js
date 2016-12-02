@@ -2,12 +2,19 @@ var fs = require('fs');
 var http = require("http");
 var server = http.createServer();
 var url = require("url");
+var ipVisitan = {}
 
 
 server.on("request", function(req,res){
     var urlData=url.parse(req.url);
     var path = urlData.pathname;
     var filePath= "public"+path;
+    var ip = req.connection.remoteAddress;
+
+    ipVisitan[ip] = 0;
+    console.log(ipVisitan);
+
+    //res.end(ip);
     fs.exists(filePath,function(exists){
         if(exists){
             fs.readFile(filePath, function(err,data){

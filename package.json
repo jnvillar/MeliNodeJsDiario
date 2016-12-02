@@ -8,5 +8,8 @@
     "start": "node node.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mu2": "^0.5.21"
+  }
 }
