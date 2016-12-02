@@ -72,6 +72,9 @@ input[type=text]:focus {
 	margin-left: 26%;
 }
 
+#gif{
+	margin-left: 35%;
+}
 
 li a {
 	display: block;
