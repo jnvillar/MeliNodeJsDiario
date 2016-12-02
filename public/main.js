@@ -14,7 +14,7 @@ window.onload = function(){
     manejadorDeArticulos.render("articulos");
 };
 
-window.onmousemove = function(){
+/*window.onmousemove = function(){
     var x = Math.floor(Math.random()*11);
     var resultado = 0;
     // var y = Math.facto
@@ -24,7 +24,7 @@ window.onmousemove = function(){
         resultado *= i;
     }
     document.getElementById('numero').innerHTML= ' numero  '+ x + '   factorial ' + resultado;
-};
+};*/
 
 
 var Articulo = function (titulo, contenido, link, tieneLink) {
