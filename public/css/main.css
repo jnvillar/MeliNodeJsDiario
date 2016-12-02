@@ -22,6 +22,10 @@ header #logo img{
 footer{
 	background-color: red;
 }
+#content {
+	padding: 15px 30px 0 0;
+}
+
 
 h1{
 	margin-top: 2%;
@@ -36,6 +40,7 @@ h1{
 #listaCostado{
 	position: fixed;
 	list-style-type: none;
+
 	margin: 0;
 	padding: 0;
 	width: 25%;
@@ -43,6 +48,8 @@ h1{
 	height: 100%;
 	overflow: auto;
 }
+
+
 
 #test{
 	margin-left:  40%;
